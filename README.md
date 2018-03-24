@@ -1,9 +1,8 @@
 NeoBufferedPrint
 ======
-
 Intermediate printing class for reducing the number of writes.  This can dramatically improve performance on IoT-type devices.
-I
-Goal
+
+Goals
 ======
 
 To reduce the number of `write`/`Print` calls to the destination.  This can have a dramatic impact on the performance of Print classes that do a lot of work for individual writes (e.g., WiFiClient).
